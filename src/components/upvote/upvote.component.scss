@@ -1,0 +1,31 @@
+.vote-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    caret-color: transparent;
+    &.default {
+        background-color: #F4F6F8;
+        border: 1px solid #F4F6F8;
+        svg {
+            fill: #343A40;
+        }        
+    }
+    &.selected {
+        background-color: #E5E8FD;
+        border: 1px solid #E5E8FD;
+        svg {
+            fill: #253CF2;
+        }
+    }
+    svg {
+        width: 40%;
+        height: 40%;
+        cursor: pointer;
+    }
+
+}
